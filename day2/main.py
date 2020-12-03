@@ -26,8 +26,8 @@ def is_valid(line, validation_func):
     return validation_func(int(i), int(j), letter, password)
 
 
-if __name__ == '__main__':
-    db = Path("input").read_text().strip().split('\n')
+if __name__ == "__main__":
+    db = Path("input").read_text().strip().split("\n")
 
     print("Part One")
     assert is_valid("1-3 a: abcde", is_valid_part_one)

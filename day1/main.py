@@ -16,7 +16,7 @@ def find_2020_param(expenses, nb):
             return t
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     input = Path("input")
     expenses_report = np.unique(np.fromfile(input, sep="\n", dtype=int))
     expenses_report.sort()
